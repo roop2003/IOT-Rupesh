@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT-Rupesh
+  host: IOT-Rupesh
+  disk_quota: 1024M
+  services:
+  - IOT-Rupesh-cloudantNoSQLDB
+  - IOT-Rupesh-iotf-service
+  - availability-monitoring-auto
